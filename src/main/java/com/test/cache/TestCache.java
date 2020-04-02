@@ -39,6 +39,9 @@ public class TestCache {
                 }
             });
 
+    /**
+     * 测试缓存击穿问题
+     */
     @Test
     public void testCache(){
 
@@ -58,6 +61,9 @@ public class TestCache {
         }
     }
 
+    /**
+     * 测试 reload
+     */
     @Test
     public void testRefresh(){
         while(true) {
