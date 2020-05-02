@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e506abda-29a4-4105-b343-1fca77f55f4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/cas/TestCellCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/jvm/TestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/jvm/TestObjectHead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/current/TestBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/current/TestBinary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/cache/TestCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/cache/TestCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/current/TestBinary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/current/TestBinary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava-test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/guava-test.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,47 +26,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/current/TestBinary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="667">
+              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/cache/TestCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-221">
+              <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/jvm/TestObjectHead.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-940">
-              <caret line="2542" column="45" selection-start-line="2542" selection-start-column="45" selection-end-line="2542" selection-end-column="45" />
+            <state relative-caret-position="239">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
               <folding>
-                <element signature="e#32334#32335#0" expanded="true" />
-                <element signature="e#32385#32386#0" expanded="true" />
-                <element signature="e#44347#44348#0" expanded="true" />
-                <element signature="e#44395#44396#0" expanded="true" />
-                <element signature="e#93710#93711#0" expanded="true" />
-                <element signature="e#93797#93798#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/ThreadLocalRandom.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/jvm/TestModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="163" column="30" selection-start-line="163" selection-start-column="30" selection-end-line="163" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/AbstractExecutorService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="100" column="36" selection-start-line="100" selection-start-column="36" selection-end-line="100" selection-end-column="36" />
-              <folding>
-                <element signature="e#2940#2941#0" expanded="true" />
-                <element signature="e#2990#2991#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="138">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -72,57 +77,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/cas/TestCellCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="64" column="10" lean-forward="true" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+            <state relative-caret-position="1311">
+              <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
-                <element signature="e#880#881#0" expanded="true" />
-                <element signature="e#1679#1680#0" expanded="true" />
-                <element signature="e#1720#1721#0" expanded="true" />
-                <element signature="e#1783#1784#0" expanded="true" />
-                <element signature="e#1827#1828#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-              <folding>
-                <element signature="e#4725#4726#0" expanded="true" />
-                <element signature="e#4793#4794#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="305" column="32" selection-start-line="305" selection-start-column="32" selection-end-line="305" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/Runnable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
-              <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/FutureTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4774">
-              <caret line="254" column="16" selection-start-line="254" selection-start-column="16" selection-end-line="254" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -144,6 +103,7 @@
       <find>helpTransfer</find>
       <find>addCount</find>
       <find>5000</find>
+      <find>BiasedLockingBulkRebiasThreshold</find>
     </findStrings>
     <replaceStrings>
       <replace>10</replace>
@@ -166,7 +126,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/test/current/TestGetAllFuture.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/current/TestScheduleAsync.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/collection/BitMap.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/collection/TestBitMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/collection/TestMultiMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/collection/TestMultiSet.java" />
@@ -185,14 +144,16 @@
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa10700.44943/ConcurrentHashMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/cas/TestCellCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/cas/TestCondition.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/jvm/TestObjectHead.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/soft/apache-maven-3.2.2-bin/apache-maven-3.2.2" />
-        <option name="userSettingsFile" value="D:\config\settings.xml" />
+        <option name="mavenHome" value="E:/local-maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\local-maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -201,9 +162,20 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="guava-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="width" value="698" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -244,6 +216,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -252,6 +233,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="cache" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -261,54 +243,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="cas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="current" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="steam" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -341,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestCellCount">
+  <component name="RunManager" selected="Application.TestObjectHead">
     <configuration name="TestBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.current.TestBinary" />
       <module name="guava-test" />
@@ -361,6 +298,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.test.cas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestObjectHead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.jvm.TestObjectHead" />
+      <module name="guava-test" />
+      <option name="VM_PARAMETERS" value="-XX:+PrintFlagsFinal -XX:BiasedLockingStartupDelay=0 -XX:BiasedLockingBulkRebiasThreshold=20 -XX:BiasedLockingBulkRevokeThreshold=40" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -400,29 +351,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestException.testException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guava-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.TestException" />
-      <option name="METHOD_NAME" value="testException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.TestBinary" />
+      <item itemvalue="Application.TestCellCount" />
+      <item itemvalue="Application.TestObjectHead" />
+      <item itemvalue="JUnit.TestCache.testCache" />
+      <item itemvalue="JUnit.TestCache.testRefresh" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestObjectHead" />
         <item itemvalue="Application.TestCellCount" />
         <item itemvalue="Application.TestBinary" />
         <item itemvalue="JUnit.TestCache.testRefresh" />
         <item itemvalue="JUnit.TestCache.testCache" />
-        <item itemvalue="JUnit.TestException.testException" />
       </list>
     </recent_temporary>
   </component>
@@ -450,6 +392,7 @@
       <workItem from="1586398166082" duration="18889000" />
       <workItem from="1586484247306" duration="9646000" />
       <workItem from="1588056200432" duration="11277000" />
+      <workItem from="1588394705559" duration="5374000" />
     </task>
     <servers />
   </component>
@@ -486,13 +429,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190024000" />
+    <option name="totallyTimeSpent" value="195398000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23600605" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23927614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -501,7 +443,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.12786885" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.4618474" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5688525" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -510,8 +452,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.15737705" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.4257028" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.15662651" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -519,7 +461,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3297587" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -566,57 +508,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/SortedSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1804">
-          <caret line="105" column="3" lean-forward="true" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/RegularEnumSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/collection/utils/TestMaps.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24486">
-          <caret line="1170" selection-start-line="1170" selection-end-line="1170" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/Optional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6622">
-          <caret line="343" column="18" selection-start-line="343" selection-start-column="18" selection-end-line="343" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/collect/Ordering.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16896">
-          <caret line="838" column="31" selection-start-line="838" selection-start-column="31" selection-end-line="838" selection-end-column="31" />
-          <folding>
-            <element signature="e#16644#16645#0" expanded="true" />
-            <element signature="e#16692#16693#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/collect/NullsFirstOrdering.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-          <folding>
-            <element signature="e#1061#1062#0" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/String.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/Optional.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/collect/Ordering.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/collect/NullsFirstOrdering.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/collection/TestTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="946">
@@ -627,55 +522,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/collect/Sets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38192">
-          <caret line="1924" column="27" selection-start-line="1924" selection-start-column="27" selection-end-line="1924" selection-end-column="27" />
-          <folding>
-            <element signature="e#57229#57230#0" expanded="true" />
-            <element signature="e#57266#57267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/collect/Synchronized.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30822">
-          <caret line="1533" column="22" selection-start-line="1533" selection-start-column="22" selection-end-line="1533" selection-end-column="22" />
-          <folding>
-            <element signature="e#35748#35749#0" expanded="true" />
-            <element signature="e#35784#35785#0" expanded="true" />
-            <element signature="e#38622#38623#0" expanded="true" />
-            <element signature="e#38671#38672#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/EnumSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2376">
-          <caret line="131" column="16" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/cache/CacheBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="399" column="28" selection-start-line="399" selection-start-column="28" selection-end-line="399" selection-end-column="28" />
-          <folding>
-            <element signature="e#17414#17415#0" expanded="true" />
-            <element signature="e#17509#17510#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/collect/Sets.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/collect/Synchronized.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/EnumSet.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/Executor.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/cache/CacheBuilder.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/current/TestTransform.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -683,55 +534,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/cache/TestCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/util/concurrent/SettableFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-          <folding>
-            <element signature="e#1850#1851#0" expanded="true" />
-            <element signature="e#1890#1891#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/util/concurrent/AbstractFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="86" column="57" selection-start-line="86" selection-start-column="57" selection-end-line="86" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/cache/CacheLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3542">
-          <caret line="191" column="38" selection-start-line="191" selection-start-column="38" selection-end-line="191" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/cache/LocalCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68332">
-          <caret line="3523" column="31" selection-start-line="3523" selection-start-column="31" selection-end-line="3523" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/base/Stopwatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/util/concurrent/SettableFuture.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/util/concurrent/AbstractFuture.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/cache/CacheLoader.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/cache/LocalCache.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/base/Stopwatch.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/collection/TestBitMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -815,20 +622,8 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa10700.42144/ConcurrentMap.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/jre/lib/rt.jar!/sun/misc/VM.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2266">
-          <caret line="123" column="26" selection-start-line="123" selection-start-column="26" selection-end-line="123" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29282">
-          <caret line="1394" column="22" selection-start-line="1394" selection-start-column="22" selection-end-line="1394" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/jre/lib/rt.jar!/sun/misc/VM.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/Integer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/order/TestOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -839,155 +634,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17578">
-          <caret line="847" column="28" selection-start-line="847" selection-start-column="28" selection-end-line="847" selection-end-column="28" />
-          <folding>
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
-            <element signature="e#24331#24332#0" expanded="true" />
-            <element signature="e#24396#24397#0" expanded="true" />
-            <element signature="e#69028#69029#0" expanded="true" />
-            <element signature="e#69079#69080#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/LinkedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5896">
-          <caret line="296" column="9" selection-start-line="296" selection-start-column="9" selection-end-line="296" selection-end-column="9" />
-          <folding>
-            <element signature="e#19667#19668#0" expanded="true" />
-            <element signature="e#19695#19696#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/HashMap.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/LinkedHashMap.java" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa10700.44943/ConcurrentHashMap.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23936">
-          <caret line="1148" column="30" selection-start-line="1148" selection-start-column="30" selection-end-line="1148" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/util/concurrent/ListeningExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5038">
-          <caret line="263" column="14" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/RunnableFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/FutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4774">
-          <caret line="254" column="16" selection-start-line="254" selection-start-column="16" selection-end-line="254" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-          <folding>
-            <element signature="e#4725#4726#0" expanded="true" />
-            <element signature="e#4793#4794#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="305" column="32" selection-start-line="305" selection-start-column="32" selection-end-line="305" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/AbstractExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="100" column="36" selection-start-line="100" selection-start-column="36" selection-end-line="100" selection-end-column="36" />
-          <folding>
-            <element signature="e#2940#2941#0" expanded="true" />
-            <element signature="e#2990#2991#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/ThreadLocalRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="163" column="30" selection-start-line="163" selection-start-column="30" selection-end-line="163" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/cas/TestCondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/ThreadPoolExecutor.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/util/concurrent/ListeningExecutorService.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/ExecutorService.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/RunnableFuture.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/Runnable.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/FutureTask.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/atomic/AtomicInteger.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/jre/lib/rt.jar!/sun/misc/Unsafe.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/AbstractExecutorService.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/ThreadLocalRandom.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/cas/TestCondition.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/ConcurrentHashMap.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/current/TestBinary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="667">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/cas/TestCellCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="64" column="10" lean-forward="true" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+        <state relative-caret-position="1311">
+          <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#1679#1680#0" expanded="true" />
-            <element signature="e#1720#1721#0" expanded="true" />
-            <element signature="e#1783#1784#0" expanded="true" />
-            <element signature="e#1827#1828#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/cache/TestCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-940">
-          <caret line="2542" column="45" selection-start-line="2542" selection-start-column="45" selection-end-line="2542" selection-end-column="45" />
+        <state relative-caret-position="-221">
+          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
           <folding>
-            <element signature="e#32334#32335#0" expanded="true" />
-            <element signature="e#32385#32386#0" expanded="true" />
-            <element signature="e#44347#44348#0" expanded="true" />
-            <element signature="e#44395#44396#0" expanded="true" />
-            <element signature="e#93710#93711#0" expanded="true" />
-            <element signature="e#93797#93798#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/jvm/TestModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/jvm/TestObjectHead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
