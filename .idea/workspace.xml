@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e506abda-29a4-4105-b343-1fca77f55f4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/jvm/TestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/jvm/TestObjectHead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/lock/EpochTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/lock/HashCodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/lock/HeavyweightLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/lock/InflateByHashCodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/lock/LightweightLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/lock/ObjectHeaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/lock/SyncAfterJdk16Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/lock/SyncBeforeJdk16Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/npe/TestCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guava-test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/guava-test.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/jvm/TestObjectHead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/jvm/TestObjectHead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/jvm/TestObjectHead.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/jvm/TestObjectHead.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,22 +29,108 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/current/TestBinary.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/lock/SyncBeforeJdk16Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+            <state relative-caret-position="345">
+              <caret line="30" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/cache/TestCache.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/lock/ObjectHeaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-221">
-              <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+            <state relative-caret-position="94">
+              <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/lock/HashCodeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="18" column="71" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="18" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/lock/InflateByHashCodeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/lock/SyncAfterJdk16Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-230">
+              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/lock/LightweightLockTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="18" column="75" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/lock/EpochTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="75" column="9" lean-forward="true" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/lock/HeavyweightLockTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="19" column="35" lean-forward="true" selection-start-line="11" selection-end-line="30" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/ClassLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="403" column="50" selection-start-line="403" selection-start-column="50" selection-end-line="403" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -47,41 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/jvm/TestObjectHead.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/jvm/TestModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/cas/TestCellCount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
-              <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -144,8 +202,20 @@
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa10700.44943/ConcurrentHashMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/cas/TestCellCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/cas/TestCondition.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/npe/TestCase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/jvm/TestObjectHead.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/lock/TestSyncBeforeJDK16.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/lock/SyncBeforeJDK16.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/lock/SyncBeforeJDK16Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/lock/SyncBeforeJdk16Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/lock/SyncAfterJdk16Test.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/lock/ObjectHeader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/lock/LightweightLockTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/lock/HashCodeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/lock/InflateByHashCodeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/lock/EpochTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/lock/HeavyweightLockTest.java" />
       </list>
     </option>
   </component>
@@ -173,9 +243,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="width" value="698" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="700" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -184,7 +255,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,13 +316,94 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="cas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="current" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="jvm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="npe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="steam" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,93 +430,107 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestObjectHead">
-    <configuration name="TestBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.current.TestBinary" />
+  <component name="RunManager" selected="JUnit.HeavyweightLockTest.test">
+    <configuration name="EpochTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="guava-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.current.*" />
+          <option name="PATTERN" value="com.test.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.test.lock" />
+      <option name="MAIN_CLASS_NAME" value="com.test.lock.EpochTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-XX:BiasedLockingStartupDelay=0" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCellCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.cas.TestCellCount" />
+    <configuration name="HeavyweightLockTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="guava-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.cas.*" />
+          <option name="PATTERN" value="com.test.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestObjectHead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.jvm.TestObjectHead" />
-      <module name="guava-test" />
-      <option name="VM_PARAMETERS" value="-XX:+PrintFlagsFinal -XX:BiasedLockingStartupDelay=0 -XX:BiasedLockingBulkRebiasThreshold=20 -XX:BiasedLockingBulkRevokeThreshold=40" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.jvm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCache.testCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guava-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.cache.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.cache" />
-      <option name="MAIN_CLASS_NAME" value="com.test.cache.TestCache" />
-      <option name="METHOD_NAME" value="testCache" />
+      <option name="PACKAGE_NAME" value="com.test.lock" />
+      <option name="MAIN_CLASS_NAME" value="com.test.lock.HeavyweightLockTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCache.testRefresh" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InflateByHashCodeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="guava-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.cache.*" />
+          <option name="PATTERN" value="com.test.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test.cache" />
-      <option name="MAIN_CLASS_NAME" value="com.test.cache.TestCache" />
-      <option name="METHOD_NAME" value="testRefresh" />
+      <option name="PACKAGE_NAME" value="com.test.lock" />
+      <option name="MAIN_CLASS_NAME" value="com.test.lock.InflateByHashCodeTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-XX:BiasedLockingStartupDelay=0" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LightweightLockTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guava-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.lock" />
+      <option name="MAIN_CLASS_NAME" value="com.test.lock.LightweightLockTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-XX:BiasedLockingStartupDelay=0" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectHeaderTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guava-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.lock" />
+      <option name="MAIN_CLASS_NAME" value="com.test.lock.ObjectHeaderTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestBinary" />
-      <item itemvalue="Application.TestCellCount" />
-      <item itemvalue="Application.TestObjectHead" />
-      <item itemvalue="JUnit.TestCache.testCache" />
-      <item itemvalue="JUnit.TestCache.testRefresh" />
+      <item itemvalue="JUnit.LightweightLockTest.test" />
+      <item itemvalue="JUnit.ObjectHeaderTest.test" />
+      <item itemvalue="JUnit.EpochTest.test" />
+      <item itemvalue="JUnit.InflateByHashCodeTest.test" />
+      <item itemvalue="JUnit.HeavyweightLockTest.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestObjectHead" />
-        <item itemvalue="Application.TestCellCount" />
-        <item itemvalue="Application.TestBinary" />
-        <item itemvalue="JUnit.TestCache.testRefresh" />
-        <item itemvalue="JUnit.TestCache.testCache" />
+        <item itemvalue="JUnit.HeavyweightLockTest.test" />
+        <item itemvalue="JUnit.EpochTest.test" />
+        <item itemvalue="JUnit.InflateByHashCodeTest.test" />
+        <item itemvalue="JUnit.LightweightLockTest.test" />
+        <item itemvalue="JUnit.ObjectHeaderTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -393,49 +559,64 @@
       <workItem from="1586484247306" duration="9646000" />
       <workItem from="1588056200432" duration="11277000" />
       <workItem from="1588394705559" duration="5374000" />
+      <workItem from="1588578023896" duration="3749000" />
+      <workItem from="1588664291377" duration="1238000" />
+      <workItem from="1589119612557" duration="1315000" />
+      <workItem from="1589467460061" duration="143000" />
+      <workItem from="1589630531573" duration="6819000" />
+      <workItem from="1589692529806" duration="21474000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestException_testException - 2020.04.02 at 11h 06m 52s.xml">
-      <configuration name="TestException.testException" configurationId="JUnit" />
+    <history-entry file="EpochTest_test - 2020.05.17 at 20h 17m 55s.xml">
+      <configuration name="EpochTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestException_testException - 2020.04.02 at 11h 06m 59s.xml">
-      <configuration name="TestException.testException" configurationId="JUnit" />
+    <history-entry file="EpochTest_test - 2020.05.17 at 20h 18m 33s.xml">
+      <configuration name="EpochTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCache_testCache - 2020.04.02 at 16h 21m 35s.xml">
-      <configuration name="TestCache.testCache" configurationId="JUnit" />
+    <history-entry file="EpochTest_test - 2020.05.17 at 20h 28m 44s.xml">
+      <configuration name="EpochTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCache_testCache - 2020.04.02 at 16h 22m 20s.xml">
-      <configuration name="TestCache.testCache" configurationId="JUnit" />
+    <history-entry file="EpochTest_test - 2020.05.17 at 20h 29m 40s.xml">
+      <configuration name="EpochTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCache_testCache - 2020.04.02 at 16h 23m 11s.xml">
-      <configuration name="TestCache.testCache" configurationId="JUnit" />
+    <history-entry file="EpochTest_test - 2020.05.17 at 20h 31m 17s.xml">
+      <configuration name="EpochTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCache_testCache - 2020.04.02 at 16h 23m 45s.xml">
-      <configuration name="TestCache.testCache" configurationId="JUnit" />
+    <history-entry file="EpochTest_test - 2020.05.17 at 20h 31m 52s.xml">
+      <configuration name="EpochTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCache_testCache - 2020.04.02 at 16h 30m 34s.xml">
-      <configuration name="TestCache.testCache" configurationId="JUnit" />
+    <history-entry file="EpochTest_test - 2020.05.17 at 20h 32m 37s.xml">
+      <configuration name="EpochTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCache_testRefresh - 2020.04.02 at 16h 54m 53s.xml">
-      <configuration name="TestCache.testRefresh" configurationId="JUnit" />
+    <history-entry file="EpochTest_test - 2020.05.17 at 20h 33m 13s.xml">
+      <configuration name="EpochTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCache_testRefresh - 2020.04.02 at 16h 55m 54s.xml">
-      <configuration name="TestCache.testRefresh" configurationId="JUnit" />
+    <history-entry file="EpochTest_test - 2020.05.17 at 20h 36m 33s.xml">
+      <configuration name="EpochTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCache_testRefresh - 2020.04.02 at 16h 56m 34s.xml">
-      <configuration name="TestCache.testRefresh" configurationId="JUnit" />
+    <history-entry file="HeavyweightLockTest_test - 2020.05.17 at 21h 33m 37s.xml">
+      <configuration name="HeavyweightLockTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195398000" />
+    <option name="totallyTimeSpent" value="230136000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23927614" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4953146" visible="true" weight="0.21782842" />
+      <window_info id="Structure" order="1" sideWeight="0.5046854" side_tool="true" weight="0.20911528" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -443,15 +624,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.4618474" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5688525" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.78313255" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.394913" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32931727" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32931727" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32931727" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.4257028" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.15662651" />
       <window_info anchor="bottom" id="Spring" order="13" />
@@ -508,44 +689,9 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/String.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/Optional.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/collect/Ordering.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/collect/NullsFirstOrdering.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/collection/TestTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/collect/Sets.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/collect/Synchronized.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/EnumSet.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/Executor.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/cache/CacheBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/current/TestTransform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/util/concurrent/SettableFuture.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/util/concurrent/AbstractFuture.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/cache/CacheLoader.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/cache/LocalCache.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/base/Stopwatch.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/collection/TestBitMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/collection/TestMultiMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="584">
@@ -656,6 +802,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4232">
+          <caret line="230" column="32" selection-start-line="230" selection-start-column="32" selection-end-line="230" selection-end-column="32" />
+          <folding>
+            <element signature="e#7116#7117#0" expanded="true" />
+            <element signature="e#7150#7151#0" expanded="true" />
+            <element signature="e#9117#9118#0" expanded="true" />
+            <element signature="e#9144#9145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+          <folding>
+            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/cache/TestCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/collection/TestBitMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/jvm/TestObjectHead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="64" column="68" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10787">
+          <caret line="508" selection-start-line="508" selection-end-line="508" />
+          <folding>
+            <element signature="e#41392#41393#0" expanded="true" />
+            <element signature="e#41449#41450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/npe/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/jvm/TestModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/cas/TestCellCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1311">
@@ -666,34 +888,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/cache/TestCache.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+        <state relative-caret-position="170">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="403" column="50" selection-start-line="403" selection-start-column="50" selection-end-line="403" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/lock/ObjectHeaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/lock/LightweightLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="18" column="75" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/lock/HashCodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        <state relative-caret-position="285">
+          <caret line="18" column="71" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="18" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/jvm/TestModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/lock/InflateByHashCodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="199">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/jvm/TestObjectHead.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/lock/EpochTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="580">
+          <caret line="75" column="9" lean-forward="true" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/lock/SyncAfterJdk16Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/lock/SyncBeforeJdk16Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="30" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/lock/HeavyweightLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="19" column="35" lean-forward="true" selection-start-line="11" selection-end-line="30" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

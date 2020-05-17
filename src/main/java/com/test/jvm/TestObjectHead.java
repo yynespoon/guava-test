@@ -1,5 +1,6 @@
 package com.test.jvm;
 
+import com.test.jvm.TestModel;
 import org.openjdk.jol.info.ClassLayout;
 
 import java.util.ArrayList;
@@ -21,7 +22,9 @@ public class TestObjectHead {
                 TestModel testModel = new TestModel();
                 list.add(testModel);
                 synchronized (testModel){
-                    System.out.println(111);
+                    if(i == 1){
+                        System.out.println(ClassLayout.parseInstance(list.get(i)).toPrintable());
+                    }
                 }
             }
         });
@@ -37,15 +40,32 @@ public class TestObjectHead {
          * 同一个 class 锁撤销（未冲突但是不同线程获取）到达阈值 -XX:BiasedLockingBulkRebiasThreshold default 20 次之后
          * 不再升级为轻量级锁而是进行锁重新偏向 即将对象头线程 id 替换
          */
+        //--------------------------------- 开启新线程抢占分配的线程 id 并休眠 10s -------------------------------------------
+        new Thread(()->{
+            try {
+                //System.out.println(1);
+                //System.out.println(ClassLayout.parseInstance(list.get(10)).toPrintable());
+                Thread.sleep(10000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }).start();
+
+        //---------------------------------- 为了确保 t2 在执行的时候上面的线程还没有dead ------------------------------
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         Thread t2 = new Thread(()->{
             for (int i = 0; i < 100; i++) {
                 synchronized (list.get(i)){
-                    if(i ==25)
-                        System.out.println(ClassLayout.parseInstance(list.get(list.size()-1)).toPrintable());
+                    if(i ==10)
+                        System.out.println(ClassLayout.parseInstance(list.get(i)).toPrintable());
 
                     if(i ==99)
-                        System.out.println(ClassLayout.parseInstance(list.get(list.size()-1)).toPrintable());
+                        System.out.println(ClassLayout.parseInstance(list.get(i)).toPrintable());
                 }
             }
         });
