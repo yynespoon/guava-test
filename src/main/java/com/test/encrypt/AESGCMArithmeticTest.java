@@ -8,7 +8,7 @@ import java.security.SecureRandom;
  * @author lixiaoyu
  * @since 2020/6/12
  */
-public class RSAGCMArithmeticTest {
+public class AESGCMArithmeticTest {
 
     @Test
     public void testEncrypt() throws Exception{

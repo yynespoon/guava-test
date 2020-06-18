@@ -22,8 +22,18 @@ public class GCMUtils {
 
     private static final int GCM_TAG_LENGTH = 16;
 
+    /**
+     * data persistence, select one way you like
+     */
     private static final CipherService cipherService = new CipherService();
 
+    /**
+     *
+     * @param text the text to encrypt
+     * @param aad
+     * @return the id of record
+     * @throws Exception
+     */
     public static int encrypt(String text, String aad) throws Exception {
         CipherResult cipherResult = new CipherResult();
         // create aes key generator
