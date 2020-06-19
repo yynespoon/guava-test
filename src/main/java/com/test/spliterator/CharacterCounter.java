@@ -15,7 +15,19 @@ public class CharacterCounter {
         this.isWhiteSpace = isWhiteSpace;
     }
 
-    public void accumulate(){
-        
+    public CharacterCounter accumulate(char c){
+        if(Character.isWhitespace(c)){
+            return this.isWhiteSpace ?
+                    this:
+                    new CharacterCounter(count, true);
+        } else {
+            return this.isWhiteSpace ?
+                    new CharacterCounter(count, true) :
+                    new CharacterCounter(count + 1, false);
+        }
+    }
+
+    public int combine(CharacterCounter before, CharacterCounter after){
+        return before.count + after.count;
     }
 }
