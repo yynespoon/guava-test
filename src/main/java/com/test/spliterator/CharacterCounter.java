@@ -15,19 +15,27 @@ public class CharacterCounter {
         this.isWhiteSpace = isWhiteSpace;
     }
 
-    public CharacterCounter accumulate(char c){
+    public CharacterCounter accumulate(Character c){
         if(Character.isWhitespace(c)){
             return this.isWhiteSpace ?
                     this:
                     new CharacterCounter(count, true);
         } else {
             return this.isWhiteSpace ?
-                    new CharacterCounter(count, true) :
-                    new CharacterCounter(count + 1, false);
+                    new CharacterCounter(count + 1, false) :
+                    new CharacterCounter(count, false);
         }
     }
 
-    public int combine(CharacterCounter before, CharacterCounter after){
-        return before.count + after.count;
+    public CharacterCounter combine(CharacterCounter before){
+        return new CharacterCounter(this.count + before.count, this.isWhiteSpace);
+    }
+
+    @Override
+    public String toString() {
+        return "CharacterCounter{" +
+                "count=" + count +
+                ", isWhiteSpace=" + isWhiteSpace +
+                '}';
     }
 }

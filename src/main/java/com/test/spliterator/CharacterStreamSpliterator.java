@@ -33,6 +33,10 @@ public class CharacterStreamSpliterator implements Spliterator<Character> {
         return this.currentPosition < this.originString.length();
     }
 
+    /**
+     * 怎样去分割
+     * @return 返回 null 代表不再进行分割, 否则继续分割
+     */
     @Override
     public Spliterator<Character> trySplit() {
         if (this.currentPosition <= threshold){
@@ -48,11 +52,24 @@ public class CharacterStreamSpliterator implements Spliterator<Character> {
         return null;
     }
 
+    /**
+     * 预估长度
+     * @return
+     */
     @Override
     public long estimateSize() {
         return this.originString.length();
     }
 
+    /**
+     * 分割优化
+     * @return
+     * ORDERED 并行流中元素需要有序
+     * SIZED estimateSize 返回的长度是准确的
+     * NONNULL 流中每个元素都不为空
+     * IMMUTABLE 流中元素都不可更改
+     * SUBSIZED 从spliterator 拆分出来的长度都是准确的
+     */
     @Override
     public int characteristics() {
         return ORDERED & SIZED & NONNULL & IMMUTABLE & SUBSIZED;

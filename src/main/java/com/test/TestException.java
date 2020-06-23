@@ -1,5 +1,6 @@
 package com.test;
 
+import com.google.common.collect.Lists;
 import org.junit.Test;
 
 import java.util.concurrent.Executors;
@@ -12,12 +13,14 @@ public class TestException {
 
     @Test
     public void testException() {
-        try {
-            Executors.newSingleThreadExecutor().submit(()->{
-                throw new RuntimeException();
-            });
+        try{
+            Lists.newArrayList(null, 1,2,3).stream()
+                    .peek(element -> element.toString())
+                    .forEach(System.out::println);
         } catch (Exception e){
-            System.out.println("ex");
+            e.addSuppressed(new RuntimeException("123"));
+            throw e;
         }
+
     }
 }
