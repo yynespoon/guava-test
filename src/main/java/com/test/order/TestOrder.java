@@ -1,14 +1,11 @@
 package com.test.order;
 
-import com.google.common.collect.Collections2;
 import com.google.common.collect.ComparisonChain;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Ordering;
 import org.junit.Test;
 
-import java.util.Comparator;
 import java.util.List;
-import java.util.Optional;
 
 /**
  * @author lixiaoyu

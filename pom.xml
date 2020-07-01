@@ -15,10 +15,25 @@
                 <configuration>
                     <source>8</source>
                     <target>8</target>
+                    <compilerArgs>
+                    </compilerArgs>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+
+    <repository>
+        <id>nexus-aliyun</id>
+        <name>Nexus aliyun</name>
+        <layout>default</layout>
+        <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
+        <releases>
+            <enabled>true</enabled>
+        </releases>
+    </repository>
 
     <dependencies>
         <dependency>
