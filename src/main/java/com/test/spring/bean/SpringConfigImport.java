@@ -1,4 +1,4 @@
-package com.test.spring.create;
+package com.test.spring.bean;
 
 import org.springframework.context.annotation.Import;
 

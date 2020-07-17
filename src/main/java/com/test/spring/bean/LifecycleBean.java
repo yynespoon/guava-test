@@ -1,4 +1,4 @@
-package com.test.spring.create;
+package com.test.spring.bean;
 
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;

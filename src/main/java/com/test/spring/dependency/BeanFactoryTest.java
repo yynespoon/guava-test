@@ -1,11 +1,9 @@
-package com.test.spring;
+package com.test.spring.dependency;
 
 import org.junit.Test;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-import java.beans.Introspector;
 
 /**
  * @author lixiaoyu

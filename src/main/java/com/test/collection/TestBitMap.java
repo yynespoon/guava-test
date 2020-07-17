@@ -15,7 +15,7 @@ public class TestBitMap {
 
     @Test
     public void testImmutableBiMap(){
-        //create
+        //bean
         ImmutableBiMap.Builder<String, String> builder = ImmutableBiMap.builder();
         builder.put("aaa", "111");
         builder.put("bbb", "222");

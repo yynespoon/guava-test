@@ -1,5 +1,6 @@
-package com.test.spring.create;
+package com.test.spring.bean;
 
+import org.springframework.beans.factory.BeanFactory;
 import org.springframework.stereotype.Component;
 
 /**
@@ -8,6 +9,8 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class Person {
+
+    private BeanFactory beanFactory;
 
     private String username;
 
@@ -29,8 +32,23 @@ public class Person {
         this.age = age;
     }
 
+    public Person(String username) {
+        this.username = username;
+    }
+
+    public Person() {
+    }
+
     public static Person getPerson(){
         return new Person();
+    }
+
+    public static Person getPerson(String username){
+        return new Person(username);
+    }
+
+    public BeanFactory getBeanFactory() {
+        return beanFactory;
     }
 
     @Override

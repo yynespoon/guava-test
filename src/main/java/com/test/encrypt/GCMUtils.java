@@ -36,13 +36,13 @@ public class GCMUtils {
      */
     public static int encrypt(String text, String aad) throws Exception {
         CipherResult cipherResult = new CipherResult();
-        // create aes key generator
+        // bean aes key generator
         KeyGenerator keyGenerator = KeyGenerator.getInstance("AES");
         // init key
         keyGenerator.init(AES_KEY_SIZE);
         SecretKey secretKey = keyGenerator.generateKey();
         byte[] iv = new byte[GCM_IV_LENGTH];
-        //create random iv
+        //bean random iv
         SecureRandom secureRandom = new SecureRandom();
         secureRandom.nextBytes(iv);
         // get aad bytes
@@ -78,9 +78,9 @@ public class GCMUtils {
     private static byte[] doEncrypt(byte[] text, SecretKey secretKey, byte[] iv, byte[] aad) throws Exception {
         // get encrypt arithmetic
         Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
-        //create keySpec by secretKey
+        //bean keySpec by secretKey
         SecretKeySpec keySpec = new SecretKeySpec(secretKey.getEncoded(), "AES");
-        //create GCMSpec by iv
+        //bean GCMSpec by iv
         GCMParameterSpec gcmParameterSpec = new GCMParameterSpec(GCM_TAG_LENGTH * 8, iv);
         //init
         cipher.init(Cipher.ENCRYPT_MODE, keySpec, gcmParameterSpec);
@@ -94,9 +94,9 @@ public class GCMUtils {
     private static byte[] doDecrypt(byte[] text, SecretKey secretKey, byte[] iv, byte[] aad) throws Exception {
         // get encrypt arithmetic
         Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
-        //create keySpec by secretKey
+        //bean keySpec by secretKey
         SecretKeySpec keySpec = new SecretKeySpec(secretKey.getEncoded(), "AES");
-        //create GCMSpec by iv
+        //bean GCMSpec by iv
         GCMParameterSpec gcmParameterSpec = new GCMParameterSpec(GCM_TAG_LENGTH * 8, iv);
         //init
         cipher.init(Cipher.DECRYPT_MODE, keySpec, gcmParameterSpec);

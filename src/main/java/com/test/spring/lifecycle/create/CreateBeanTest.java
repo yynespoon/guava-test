@@ -1,15 +1,21 @@
-package com.test.spring;
+package com.test.spring.lifecycle.create;
 
-import com.test.spring.create.Person;
-import com.test.spring.create.PersonFactoryBean;
-import com.test.spring.create.SpringConfig;
-import com.test.spring.create.SpringConfigImport;
+import com.test.spring.bean.Person;
+import com.test.spring.bean.PersonFactoryBean;
+import com.test.spring.bean.SpringConfig;
+import com.test.spring.bean.SpringConfigImport;
 import org.junit.Test;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionReaderUtils;
+import org.springframework.beans.factory.support.DefaultListableBeanFactory;
+import org.springframework.beans.factory.support.PropertiesBeanDefinitionReader;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.io.InputStreamResource;
+import org.springframework.core.io.Resource;
+import org.springframework.core.io.support.EncodedResource;
 
+import java.io.InputStream;
 import java.util.ServiceLoader;
 
 /**
@@ -92,6 +98,7 @@ public class CreateBeanTest {
         configApplicationContext.getBeanFactory().registerSingleton("person7", new Person());
         configApplicationContext.refresh();
         System.out.println(configApplicationContext.getBean("person7"));
+        System.out.println(configApplicationContext.getBean("person7", Person.class).getBeanFactory());
     }
 
     /**
@@ -151,7 +158,21 @@ public class CreateBeanTest {
         ClassPathXmlApplicationContext
                 context = new ClassPathXmlApplicationContext("classpath:/spring-config.xml");
         ServiceLoader person13 = context.getBean("person13", ServiceLoader.class);
-        System.out.println(((PersonFactoryBean)person13.iterator().next()).getObject());
+        System.out.println(((PersonFactoryBean)person13.iterator().next()).getObject().getBeanFactory());
 
+    }
+
+    /**
+     * writable method
+     */
+    @Test
+    public void testCreateBeanByProperties(){
+        DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
+        PropertiesBeanDefinitionReader reader = new PropertiesBeanDefinitionReader(factory);
+        InputStream resourceAsStream = Thread.currentThread().getContextClassLoader().getResourceAsStream("META-INF/person.properties");
+        Resource resource = new InputStreamResource(resourceAsStream);
+        EncodedResource encodedResource = new EncodedResource(resource, "GBK");
+        reader.loadBeanDefinitions(encodedResource);
+        System.out.println(factory.getBean(Person.class));
     }
 }

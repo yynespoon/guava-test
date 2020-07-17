@@ -1,5 +1,6 @@
-package com.test.spring;
+package com.test.spring.lifecycle.create;
 
+import com.test.spring.dependency.BeanFactoryTest;
 import org.junit.Test;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionReaderUtils;
