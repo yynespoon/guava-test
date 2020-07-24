@@ -5,6 +5,8 @@ import com.test.spring.bean.PersonFactoryBean;
 import com.test.spring.bean.SpringConfig;
 import com.test.spring.bean.SpringConfigImport;
 import org.junit.Test;
+import org.springframework.beans.factory.ObjectFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionReaderUtils;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
@@ -17,12 +19,16 @@ import org.springframework.core.io.support.EncodedResource;
 
 import java.io.InputStream;
 import java.util.ServiceLoader;
+import java.util.concurrent.ConcurrentNavigableMap;
 
 /**
  * @author lixiaoyu
  * @since 2020/6/30
  */
 public class CreateBeanTest {
+
+    @Autowired
+    private ObjectFactory<Person> objectFactory;
 
     /**
      * 常规创建方式
@@ -174,5 +180,17 @@ public class CreateBeanTest {
         EncodedResource encodedResource = new EncodedResource(resource, "GBK");
         reader.loadBeanDefinitions(encodedResource);
         System.out.println(factory.getBean(Person.class));
+    }
+
+    @Test
+    public void testObjectFactory(){
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
+        context.register(CreateBeanTest.class);
+        context.register(Person.class);
+
+        context.refresh();
+
+        ObjectFactory<Person> objectFactory = context.getBean(CreateBeanTest.class).objectFactory;
+        System.out.println(objectFactory.getObject());
     }
 }
