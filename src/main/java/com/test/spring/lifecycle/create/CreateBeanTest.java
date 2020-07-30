@@ -13,8 +13,10 @@ import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.support.PropertiesBeanDefinitionReader;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.core.io.Resource;
+import org.springframework.core.io.ResourceLoader;
 import org.springframework.core.io.support.EncodedResource;
 
 import java.io.InputStream;
@@ -175,9 +177,11 @@ public class CreateBeanTest {
     public void testCreateBeanByProperties(){
         DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
         PropertiesBeanDefinitionReader reader = new PropertiesBeanDefinitionReader(factory);
-        InputStream resourceAsStream = Thread.currentThread().getContextClassLoader().getResourceAsStream("META-INF/person.properties");
-        Resource resource = new InputStreamResource(resourceAsStream);
-        EncodedResource encodedResource = new EncodedResource(resource, "GBK");
+        ResourceLoader resourceLoader = new DefaultResourceLoader();
+        Resource resource1 = resourceLoader.getResource("classpath:META-INF/person.properties");
+        //InputStream resourceAsStream = Thread.currentThread().getContextClassLoader().getResourceAsStream("META-INF/person.properties");
+        //Resource resource = new InputStreamResource(resourceAsStream);
+        EncodedResource encodedResource = new EncodedResource(resource1, "GBK");
         reader.loadBeanDefinitions(encodedResource);
         System.out.println(factory.getBean(Person.class));
     }

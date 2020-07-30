@@ -1,9 +1,6 @@
 package com.test.spring.scope;
 
 import com.test.spring.bean.Person;
-import org.springframework.beans.factory.BeanFactory;
-import org.springframework.beans.factory.support.DefaultListableBeanFactory;
-import org.springframework.context.annotation.AnnotatedBeanDefinitionReader;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Scope;
@@ -37,4 +34,6 @@ public class TestMain {
 
         context.close();
     }
+
+
 }
