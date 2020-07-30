@@ -37,21 +37,23 @@ public class ListenableResource {
         WatchService watchService = defaultFileSystem.newWatchService();
         Path listenedFilePath = resource.getFile().getParentFile().toPath();
         listenedFilePath.register(watchService, new WatchEvent.Kind[]{StandardWatchEventKinds.ENTRY_MODIFY}, SensitivityWatchEventModifier.HIGH);
-        while (true) {
-            WatchKey take = watchService.take();
-            try {
-                List<WatchEvent<?>> watchEvents = take.pollEvents();
-                for (WatchEvent<?> watchEvent : watchEvents) {
-                    if (watchEvent.kind() == StandardWatchEventKinds.ENTRY_MODIFY) {
-                        Path context = (Path) watchEvent.context();
-                        System.out.println(context.getFileName());
+        executor.submit(() -> {
+            while (true) {
+                WatchKey take = watchService.take();
+                try {
+                    List<WatchEvent<?>> watchEvents = take.pollEvents();
+                    for (WatchEvent<?> watchEvent : watchEvents) {
+                        if (watchEvent.kind() == StandardWatchEventKinds.ENTRY_MODIFY) {
+                            Path context = (Path) watchEvent.context();
+                            System.out.println(context.getFileName());
+                        }
                     }
+                } finally {
+                    take.reset();
                 }
-            } finally {
-                take.reset();
-            }
 
-        }
+            }
+        });
 
 
     }

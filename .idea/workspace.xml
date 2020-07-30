@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e506abda-29a4-4105-b343-1fca77f55f4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/spring/reource/ListenableResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/spring/reource/YamlPropertySourceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/spring/reource/YamlPropertySourceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/person.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/person.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/spring/reource/ListenableResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/spring/reource/ListenableResource.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/spring/reource/ListenableResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+            <state relative-caret-position="260">
+              <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -535,7 +532,7 @@
       <workItem from="1595558149206" duration="13414000" />
       <workItem from="1595901616584" duration="10640000" />
       <workItem from="1595989873559" duration="25203000" />
-      <workItem from="1596075780684" duration="9450000" />
+      <workItem from="1596075780684" duration="9848000" />
     </task>
     <servers />
   </component>
@@ -572,7 +569,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="522747000" />
+    <option name="totallyTimeSpent" value="523145000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -587,7 +584,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4953146" visible="true" weight="0.22390318" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4953146" weight="0.16792738" />
       <window_info id="Structure" order="1" sideWeight="0.5046854" side_tool="true" weight="0.20911528" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -597,7 +594,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.3147541" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41639343" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2967213" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32786885" />
@@ -818,12 +815,6 @@
           <line>32</line>
           <properties />
           <option name="timeStamp" value="82" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/test/spring/reource/ListenableResource.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="88" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1307,8 +1298,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/spring/reource/ListenableResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+        <state relative-caret-position="260">
+          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
