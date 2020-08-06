@@ -1,7 +1,11 @@
 package com.test.spring.bean;
 
 import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.stereotype.Component;
+
+import java.util.Map;
+import java.util.Properties;
 
 /**
  * @author lixiaoyu
@@ -15,6 +19,10 @@ public class Person {
     private String username;
 
     private int age;
+
+    private Properties propertiesContext;
+
+    private Map<String, String> mapContext;
 
     public String getUsername() {
         return username;
@@ -51,11 +59,31 @@ public class Person {
         return beanFactory;
     }
 
+    public Properties getPropertiesContext() {
+        return propertiesContext;
+    }
+
+    public void setPropertiesContext(Properties propertiesContext) {
+        this.propertiesContext = propertiesContext;
+    }
+
+    public Map<String, String> getMapContext() {
+        return mapContext;
+    }
+
+    public void setMapContext(Map<String, String> mapContext) {
+        this.mapContext = mapContext;
+    }
+
     @Override
     public String toString() {
-        return "Person{" +
-                "username='" + username + '\'' +
-                ", age=" + age +
-                '}';
+        final StringBuffer sb = new StringBuffer("Person{");
+        sb.append("beanFactory=").append(beanFactory);
+        sb.append(", username='").append(username).append('\'');
+        sb.append(", age=").append(age);
+        sb.append(", propertiesContext=").append(propertiesContext);
+        sb.append(", mapContext=").append(mapContext);
+        sb.append('}');
+        return sb.toString();
     }
 }
