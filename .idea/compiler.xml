@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="guava-test" />
+        <module name="netty-test" />
       </profile>
     </annotationProcessing>
   </component>
@@ -14,6 +14,7 @@
     <option name="ADDITIONAL_OPTIONS_STRING" value="-parameters" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="guava-test" options="" />
+      <module name="netty-test" options="" />
     </option>
   </component>
 </project>

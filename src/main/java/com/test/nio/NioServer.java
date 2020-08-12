@@ -25,16 +25,13 @@ public class NioServer {
         socketChannel2.configureBlocking(false);
 
         Selector selector = Selector.open();
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    TimeUnit.SECONDS.sleep(5);
-                    socketChannel2.register(selector, SelectionKey.OP_ACCEPT, "server accept channel");
-                    selector.wakeup();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
+        new Thread(() -> {
+            try {
+                TimeUnit.SECONDS.sleep(5);
+                socketChannel2.register(selector, SelectionKey.OP_ACCEPT, "server accept channel");
+                selector.wakeup();
+            } catch (Exception e) {
+                e.printStackTrace();
             }
         }).start();
         socketChannel.register(selector, SelectionKey.OP_ACCEPT, "server accept channel");
