@@ -24,6 +24,7 @@
     </build>
     <modules>
         <module>netty-test</module>
+        <module>rocketmq-test</module>
     </modules>
 
     <repositories>
