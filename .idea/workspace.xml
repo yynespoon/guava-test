@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e506abda-29a4-4105-b343-1fca77f55f4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rabbitmq-test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/ConnectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestLimitedConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestLimitedConsumer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestRejectConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestBackupExchangePublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestCallBackPublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestPublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestTopicExchangePublisher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-test/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,18 +38,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestCallBackPublisher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestBackupExchangePublisher.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="205">
@@ -85,47 +61,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3-sources.jar!/com/rabbitmq/client/AMQP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="1656" column="28" lean-forward="true" selection-start-line="1656" selection-start-column="28" selection-end-line="1656" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3-sources.jar!/com/rabbitmq/client/impl/recovery/AutorecoveringChannel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="200" column="16" selection-start-line="200" selection-start-column="16" selection-end-line="200" selection-end-column="16" />
-              <folding>
-                <element signature="e#35146#35147#0" expanded="true" />
-                <element signature="e#35210#35211#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestPublisher.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="241">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestRejectConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestRejectConsumer.java">
+        <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.pom">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="356">
+              <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -146,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestLimitedConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
-              <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,10 +130,19 @@
         <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestLimitedConsumer2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="363">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+              <caret line="31" column="5" selection-start-line="14" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-test/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -206,6 +187,8 @@
       <find>javax.validation.constraints.NotNull.message</find>
       <find>http</find>
       <find>Unknown that reached at the tail of the pipeline</find>
+      <find>org.slf4j</find>
+      <find>log4j</find>
     </findStrings>
     <replaceStrings>
       <replace>10</replace>
@@ -258,7 +241,6 @@
         <option value="$PROJECT_DIR$/rocketmq-test/src/main/java/group/consumer/TestTransactionConsumer.java" />
         <option value="$PROJECT_DIR$/rocketmq-test/src/main/java/group/product/TestTransactionGroup2.java" />
         <option value="$PROJECT_DIR$/rocketmq-test/src/main/java/group/product/TestTransactionGroup1.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-test/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestTopicExchangePublisher.java" />
         <option value="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/ConnectionUtils.java" />
         <option value="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestCallBackPublisher.java" />
@@ -268,6 +250,7 @@
         <option value="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestLimitedConsumer2.java" />
         <option value="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestLimitedConsumer.java" />
         <option value="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestRejectConsumer.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-test/pom.xml" />
       </list>
     </option>
   </component>
@@ -593,7 +576,7 @@
       <workItem from="1597556728293" duration="32612000" />
       <workItem from="1597666363066" duration="4992000" />
       <workItem from="1597734648987" duration="8070000" />
-      <workItem from="1597817105258" duration="11881000" />
+      <workItem from="1597817105258" duration="12209000" />
     </task>
     <servers />
   </component>
@@ -630,7 +613,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="718991000" />
+    <option name="totallyTimeSpent" value="719319000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -655,7 +638,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.38821954" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.20348059" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31994644" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1047,17 +1030,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.3.0/rocketmq-client-4.3.0-sources.jar!/org/apache/rocketmq/client/producer/DefaultMQProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2231">
-          <caret line="133" column="7" selection-start-line="133" selection-start-column="7" selection-end-line="133" selection-end-column="7" />
-          <folding>
-            <element signature="e#5401#5402#0" expanded="true" />
-            <element signature="e#5442#5443#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.3.0/rocketmq-client-4.3.0-sources.jar!/org/apache/rocketmq/client/impl/producer/DefaultMQProducerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9108">
@@ -1314,9 +1286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/rocketmq-test/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1335,13 +1304,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="888" column="27" selection-start-line="888" selection-start-column="27" selection-end-line="888" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1440,7 +1402,7 @@
     <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestPublisher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1450,17 +1412,7 @@
     <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestLimitedConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestLimitedConsumer2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1479,11 +1431,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestRejectConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="386">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestLimitedConsumer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="31" column="5" selection-start-line="14" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
         </state>
       </provider>
     </entry>
