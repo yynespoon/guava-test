@@ -5,29 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e506abda-29a4-4105-b343-1fca77f55f4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rocketmq-test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-test/src/main/java/consumer/TestConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-test/src/main/java/group/consumer/TestGroupBroadcastConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-test/src/main/java/group/consumer/TestGroupConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-test/src/main/java/group/consumer/TestGroupConsumer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-test/src/main/java/group/consumer/TestTransactionConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-test/src/main/java/group/product/TestGroupProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-test/src/main/java/group/product/TestTransactionGroup1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-test/src/main/java/group/product/TestTransactionGroup2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-test/src/main/java/product/TestBatchProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-test/src/main/java/product/TestDelayMessageProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-test/src/main/java/product/TestProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-test/src/main/java/product/TestTransactionMessageProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/ConnectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestLimitedConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestLimitedConsumer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestRejectConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestBackupExchangePublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestCallBackPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestTopicExchangePublisher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-test/src/main/java/com/test/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-test/src/main/java/com/test/TestMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-test/target/classes/com/test/TestMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-test/target/classes/com/test/TestMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/netty-test/target/" />
     <ignored path="$PROJECT_DIR$/rocketmq-test/target/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq-test/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +50,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/product/TestTransactionMessageProduct.java">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestCallBackPublisher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="39" column="17" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="39" selection-end-column="17" />
+            <state relative-caret-position="165">
+              <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,46 +62,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/group/consumer/TestGroupConsumer.java">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestBackupExchangePublisher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="205">
+              <caret line="46" column="64" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1010#1011#0" expanded="true" />
+                <element signature="e#1062#1063#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/group/consumer/TestGroupConsumer2.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3-sources.jar!/com/rabbitmq/client/Channel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+            <state relative-caret-position="343">
+              <caret line="212" column="9" selection-start-line="212" selection-start-column="9" selection-end-line="212" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3-sources.jar!/com/rabbitmq/client/AMQP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="1656" column="28" lean-forward="true" selection-start-line="1656" selection-start-column="28" selection-end-line="1656" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3-sources.jar!/com/rabbitmq/client/impl/recovery/AutorecoveringChannel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="200" column="16" selection-start-line="200" selection-start-column="16" selection-end-line="200" selection-end-column="16" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#35146#35147#0" expanded="true" />
+                <element signature="e#35210#35211#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/consumer/TestConsumer.java">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestPublisher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/group/product/TestGroupProduct.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="241">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,10 +119,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/group/product/TestTransactionGroup1.java">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestRejectConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+            <state relative-caret-position="248">
+              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,28 +131,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/group/consumer/TestTransactionConsumer.java">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/group/product/TestTransactionGroup2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/group/consumer/TestGroupBroadcastConsumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="179">
+              <caret line="22" column="78" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,13 +143,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.7.1/rocketmq-client-4.7.1-sources.jar!/org/apache/rocketmq/client/producer/TransactionMQProducer.java">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestLimitedConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="89" column="49" lean-forward="true" selection-start-line="89" selection-start-column="49" selection-end-line="89" selection-end-column="49" />
+            <state relative-caret-position="294">
+              <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
               <folding>
-                <element signature="e#3579#3580#0" expanded="true" />
-                <element signature="e#3626#3627#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestLimitedConsumer2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -219,16 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/test/spring/reource/TestMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/spring/reource/ResourceLoaderTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/spring/reource/MetaInfoStreamHandlerFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/spring/reource/YamlPropertySourceFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/spring/reource/ListenableResourceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/person.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/spring/reource/ListenableResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/MoveModTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/spring/validate/SpringValidateTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/spring/dependency/InjectionBeanFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/spring/lifecycle/create/CreateBeanTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/spring/databing/SpringDataBindingTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/spring/converter/PropertyEditorTest.java" />
@@ -270,6 +258,16 @@
         <option value="$PROJECT_DIR$/rocketmq-test/src/main/java/group/consumer/TestTransactionConsumer.java" />
         <option value="$PROJECT_DIR$/rocketmq-test/src/main/java/group/product/TestTransactionGroup2.java" />
         <option value="$PROJECT_DIR$/rocketmq-test/src/main/java/group/product/TestTransactionGroup1.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-test/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestTopicExchangePublisher.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/ConnectionUtils.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestCallBackPublisher.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestBackupExchangePublisher.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestPublisher.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestConsumer.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestLimitedConsumer2.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestLimitedConsumer.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestRejectConsumer.java" />
       </list>
     </option>
   </component>
@@ -298,6 +296,15 @@
           <item name="guava-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rabbitmq-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rabbitmq-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -317,7 +324,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -328,80 +334,63 @@
             <path>
               <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="guava-test" type="462c0819:PsiDirectoryNode" />
-              <item name="rocketmq-test" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="guava-test" type="462c0819:PsiDirectoryNode" />
-              <item name="rocketmq-test" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="guava-test" type="462c0819:PsiDirectoryNode" />
-              <item name="rocketmq-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
-              <item name="rocketmq-test" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="guava-test" type="462c0819:PsiDirectoryNode" />
-              <item name="rocketmq-test" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="guava-test" type="462c0819:PsiDirectoryNode" />
-              <item name="rocketmq-test" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="group" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="guava-test" type="462c0819:PsiDirectoryNode" />
-              <item name="rocketmq-test" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="group" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="comsumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="guava-test" type="462c0819:PsiDirectoryNode" />
-              <item name="rocketmq-test" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="group" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guava-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
-              <item name="rocketmq-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="publisher" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -440,13 +429,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestTransactionConsumer">
-    <configuration name="TestGroupBroadcastConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="group.consumer.TestGroupBroadcastConsumer" />
-      <module name="rocketmq-test" />
+  <component name="RunManager" selected="Application.TestPublisher">
+    <configuration name="TestBackupExchangePublisher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.publisher.TestBackupExchangePublisher" />
+      <module name="rabbitmq-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="group.consumer.*" />
+          <option name="PATTERN" value="test.publisher.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -454,12 +443,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGroupProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="group.product.TestGroupProduct" />
-      <module name="rocketmq-test" />
+    <configuration name="TestConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.comsumer.TestConsumer" />
+      <module name="rabbitmq-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="group.product.*" />
+          <option name="PATTERN" value="test.comsumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -467,12 +456,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTransactionConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="group.consumer.TestTransactionConsumer" />
-      <module name="rocketmq-test" />
+    <configuration name="TestLimitedConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.comsumer.TestLimitedConsumer" />
+      <module name="rabbitmq-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="group.consumer.*" />
+          <option name="PATTERN" value="test.comsumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -480,12 +469,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTransactionGroup1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="group.product.TestTransactionGroup1" />
-      <module name="rocketmq-test" />
+    <configuration name="TestLimitedConsumer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.comsumer.TestLimitedConsumer2" />
+      <module name="rabbitmq-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="group.product.*" />
+          <option name="PATTERN" value="test.comsumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -493,12 +482,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTransactionGroup2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="group.product.TestTransactionGroup2" />
-      <module name="rocketmq-test" />
+    <configuration name="TestPublisher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.publisher.TestPublisher" />
+      <module name="rabbitmq-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="group.product.*" />
+          <option name="PATTERN" value="test.publisher.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -507,19 +496,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestGroupProduct" />
-      <item itemvalue="Application.TestGroupBroadcastConsumer" />
-      <item itemvalue="Application.TestTransactionConsumer" />
-      <item itemvalue="Application.TestTransactionGroup2" />
-      <item itemvalue="Application.TestTransactionGroup1" />
+      <item itemvalue="Application.TestConsumer" />
+      <item itemvalue="Application.TestBackupExchangePublisher" />
+      <item itemvalue="Application.TestLimitedConsumer" />
+      <item itemvalue="Application.TestLimitedConsumer2" />
+      <item itemvalue="Application.TestPublisher" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestTransactionGroup2" />
-        <item itemvalue="Application.TestTransactionGroup1" />
-        <item itemvalue="Application.TestTransactionConsumer" />
-        <item itemvalue="Application.TestGroupProduct" />
-        <item itemvalue="Application.TestGroupBroadcastConsumer" />
+        <item itemvalue="Application.TestPublisher" />
+        <item itemvalue="Application.TestLimitedConsumer" />
+        <item itemvalue="Application.TestLimitedConsumer2" />
+        <item itemvalue="Application.TestConsumer" />
+        <item itemvalue="Application.TestBackupExchangePublisher" />
       </list>
     </recent_temporary>
   </component>
@@ -604,6 +593,7 @@
       <workItem from="1597556728293" duration="32612000" />
       <workItem from="1597666363066" duration="4992000" />
       <workItem from="1597734648987" duration="8070000" />
+      <workItem from="1597817105258" duration="11881000" />
     </task>
     <servers />
   </component>
@@ -640,7 +630,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="707110000" />
+    <option name="totallyTimeSpent" value="718991000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -653,8 +643,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4953146" visible="true" weight="0.24463807" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4953146" visible="true" weight="0.24798928" />
       <window_info id="Structure" order="1" sideWeight="0.5046854" side_tool="true" weight="0.20911528" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -664,7 +655,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.31860778" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.38821954" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31994644" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -676,7 +667,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.4257028" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.15528782" />
       <window_info anchor="bottom" id="Spring" order="13" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32931727" />
       <window_info anchor="bottom" id="Duplicates" order="15" weight="0.7429719" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24932976" />
@@ -1056,204 +1047,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/util/ReferenceCountUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="110" column="23" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="748" column="52" lean-forward="true" selection-start-line="748" selection-start-column="52" selection-end-line="748" selection-end-column="52" />
-          <folding>
-            <element signature="e#27017#27018#0" expanded="true" />
-            <element signature="e#27072#27073#0" expanded="true" />
-            <element signature="e#28475#28476#0" expanded="true" />
-            <element signature="e#28546#28547#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/channel/ChannelOutboundHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="1383" column="22" selection-start-line="1383" selection-start-column="22" selection-end-line="1383" selection-end-column="22" />
-          <folding>
-            <element signature="e#46779#46780#0" expanded="true" />
-            <element signature="e#46829#46830#0" expanded="true" />
-            <element signature="e#46903#46904#0" expanded="true" />
-            <element signature="e#46941#46942#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/channel/Channel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="287" column="13" selection-start-line="287" selection-start-column="13" selection-end-line="287" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/util/concurrent/DefaultPromise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="120" column="19" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/util/concurrent/Promise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/channel/DefaultChannelConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="257" column="25" selection-start-line="257" selection-start-column="25" selection-end-line="257" selection-end-column="25" />
-          <folding>
-            <element signature="e#10075#10076#0" expanded="true" />
-            <element signature="e#10112#10113#0" expanded="true" />
-            <element signature="e#15513#15514#0" expanded="true" />
-            <element signature="e#15552#15553#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23138">
-          <caret line="1117" column="28" selection-start-line="1117" selection-start-column="28" selection-end-line="1117" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/channel/nio/AbstractNioByteChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5658">
-          <caret line="288" column="17" selection-start-line="288" selection-start-column="17" selection-end-line="288" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/nio/channels/SocketChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10626">
-          <caret line="493" column="25" selection-start-line="493" selection-start-column="25" selection-end-line="493" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/jre/lib/rt.jar!/sun/nio/ch/SocketChannelImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8349">
-          <caret line="390" column="15" selection-start-line="390" selection-start-column="15" selection-end-line="390" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/channel/ChannelConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3013">
-          <caret line="150" column="8" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/channel/ChannelOutboundBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10603">
-          <caret line="508" column="15" selection-start-line="508" selection-start-column="15" selection-end-line="508" selection-end-column="15" />
-          <folding>
-            <element signature="e#4025#4026#0" expanded="true" />
-            <element signature="e#4063#4064#0" expanded="true" />
-            <element signature="e#19453#19454#0" expanded="true" />
-            <element signature="e#19490#19491#0" expanded="true" />
-            <element signature="e#29153#29154#0" expanded="true" />
-            <element signature="e#29208#29209#0" expanded="true" />
-            <element signature="e#29581#29754#0" expanded="true" />
-            <element signature="e#29753#29754#0" expanded="true" />
-            <element signature="e#30088#30089#0" expanded="true" />
-            <element signature="e#30132#30133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51129">
-          <caret line="2267" column="25" selection-start-line="2267" selection-start-column="25" selection-end-line="2267" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/buffer/UnpooledHeapByteBuf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5888">
-          <caret line="301" column="15" selection-start-line="301" selection-start-column="15" selection-end-line="301" selection-end-column="15" />
-          <folding>
-            <element signature="e#9506#9507#0" expanded="true" />
-            <element signature="e#9530#9531#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.3.0/rocketmq-client-4.3.0.jar!/org/apache/rocketmq/client/impl/producer/DefaultMQProducerImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="528" selection-start-line="528" selection-end-line="528" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.3.0/rocketmq-client-4.3.0.jar!/org/apache/rocketmq/client/ClientConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="104" column="16" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
-          <folding>
-            <element signature="e#3805#3806#0" expanded="true" />
-            <element signature="e#3851#3852#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.3.0/rocketmq-client-4.3.0-sources.jar!/org/apache/rocketmq/client/ClientConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="125" column="16" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/channel/socket/nio/NioSocketChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6785">
-          <caret line="379" column="22" selection-start-line="379" selection-start-column="22" selection-end-line="379" selection-end-column="22" />
-          <folding>
-            <element signature="e#16017#16018#0" expanded="true" />
-            <element signature="e#16068#16069#0" expanded="true" />
-            <element signature="e#18974#18975#0" expanded="true" />
-            <element signature="e#19030#19031#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rocketmq-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-common/4.3.0/rocketmq-common-4.3.0-sources.jar!/org/apache/rocketmq/common/message/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.3.0/rocketmq-client-4.3.0-sources.jar!/org/apache/rocketmq/client/producer/DefaultMQProducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2231">
@@ -1412,21 +1205,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.7.1/rocketmq-client-4.7.1-sources.jar!/org/apache/rocketmq/client/producer/TransactionMQProducer.java">
+    <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/product/TestTransactionMessageProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="89" column="49" lean-forward="true" selection-start-line="89" selection-start-column="49" selection-end-line="89" selection-end-column="49" />
-          <folding>
-            <element signature="e#3579#3580#0" expanded="true" />
-            <element signature="e#3626#3627#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/group/consumer/TestGroupConsumer2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        <state relative-caret-position="805">
+          <caret line="39" column="17" selection-start-line="33" selection-start-column="16" selection-end-line="39" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1435,18 +1217,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/group/consumer/TestGroupConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="575">
+          <caret line="32" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/group/consumer/TestGroupBroadcastConsumer.java">
+    <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/group/consumer/TestGroupConsumer2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="414">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1455,7 +1237,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/consumer/TestConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="414">
           <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1465,8 +1247,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/group/product/TestGroupProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="207">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1475,32 +1257,230 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/group/consumer/TestTransactionConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
+        <state relative-caret-position="368">
           <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/product/TestTransactionMessageProduct.java">
+    <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/group/product/TestTransactionGroup2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="39" column="17" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="39" selection-end-column="17" />
+        <state relative-caret-position="805">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/group/consumer/TestGroupBroadcastConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/group/product/TestTransactionGroup2.java">
+    <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/group/product/TestTransactionGroup1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        <state relative-caret-position="222">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rocketmq-test/src/main/java/group/product/TestTransactionGroup1.java">
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        <state relative-caret-position="138">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3.jar!/com/rabbitmq/client/Channel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="141" column="11" selection-start-line="141" selection-start-column="11" selection-end-line="141" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.7.1/rocketmq-client-4.7.1-sources.jar!/org/apache/rocketmq/client/producer/TransactionMQProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="89" column="49" selection-start-line="89" selection-start-column="49" selection-end-line="89" selection-end-column="49" />
+          <folding>
+            <element signature="e#3579#3580#0" expanded="true" />
+            <element signature="e#3626#3627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3-sources.jar!/com/rabbitmq/client/impl/AMQImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="1816" column="23" selection-start-line="1816" selection-start-column="23" selection-end-line="1816" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3-sources.jar!/com/rabbitmq/client/impl/ChannelN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="888" column="27" selection-start-line="888" selection-start-column="27" selection-end-line="888" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3-sources.jar!/com/rabbitmq/client/impl/recovery/AutorecoveringConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="1002" column="9" selection-start-line="1002" selection-start-column="9" selection-end-line="1002" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3-sources.jar!/com/rabbitmq/client/ConfirmListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3-sources.jar!/com/rabbitmq/client/ConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="823" column="16" selection-start-line="823" selection-start-column="16" selection-end-line="823" selection-end-column="16" />
+          <folding>
+            <element signature="e#30658#30659#0" expanded="true" />
+            <element signature="e#30714#30715#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/ConnectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestTopicExchangePublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestCallBackPublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3-sources.jar!/com/rabbitmq/client/impl/recovery/AutorecoveringChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="200" column="16" selection-start-line="200" selection-start-column="16" selection-end-line="200" selection-end-column="16" />
+          <folding>
+            <element signature="e#35146#35147#0" expanded="true" />
+            <element signature="e#35210#35211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3-sources.jar!/com/rabbitmq/client/AMQP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="1656" column="28" lean-forward="true" selection-start-line="1656" selection-start-column="28" selection-end-line="1656" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestBackupExchangePublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="46" column="64" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3-sources.jar!/com/rabbitmq/client/Channel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="212" column="9" selection-start-line="212" selection-start-column="9" selection-end-line="212" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/publisher/TestPublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestLimitedConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestLimitedConsumer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="22" column="78" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test/src/main/java/test/comsumer/TestRejectConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

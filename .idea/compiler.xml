@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="netty-test" />
         <module name="rocketmq-test" />
+        <module name="rabbitmq-test" />
       </profile>
     </annotationProcessing>
   </component>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="guava-test" options="" />
       <module name="netty-test" options="" />
+      <module name="rabbitmq-test" options="" />
       <module name="rocketmq-test" options="" />
     </option>
   </component>
