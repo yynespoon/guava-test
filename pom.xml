@@ -26,6 +26,7 @@
         <module>netty-test</module>
         <module>rocketmq-test</module>
         <module>rabbitmq-test</module>
+        <module>kafka-test</module>
     </modules>
 
     <repositories>
