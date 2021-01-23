@@ -13,14 +13,33 @@ public class TestException {
 
     @Test
     public void testException() {
-        try{
-            Lists.newArrayList(null, 1,2,3).stream()
-                    .peek(element -> element.toString())
-                    .forEach(System.out::println);
-        } catch (Exception e){
-            e.addSuppressed(new RuntimeException("123"));
-            throw e;
-        }
+        Thread.setDefaultUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
+            @Override
+            public void uncaughtException(Thread t, Throwable e) {
+                System.out.println(111);
+            }
+        });
+        Thread thread = new Thread(() -> {
+            throw new RuntimeException();
+        });
+        thread.setUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
+            @Override
+            public void uncaughtException(Thread t, Throwable e) {
+                Thread thread = new Thread(() -> {
+                    throw new RuntimeException();
+                });
+                thread.setUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
+                    @Override
+                    public void uncaughtException(Thread t, Throwable e) {
+                        System.out.println(e);
+                        throw new RuntimeException();
+                    }
+                });
+                thread.start();
+            }
+        });
+        thread.start();
+
 
     }
 }
