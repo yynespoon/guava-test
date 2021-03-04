@@ -12,7 +12,7 @@ public class TestStream {
 
     @Test
     public void testStream(){
-        System.out.println(Boolean.logicalXor(false, false));
+        System.out.println(Boolean.logicalXor(true, true));
 
     }
 }
