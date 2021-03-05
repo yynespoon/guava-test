@@ -14,8 +14,8 @@ import java.lang.reflect.Type;
 public class TestMain {
 
     public static void main(String[] args) throws Exception {
-//        Class<?> aClass = Class.forName("com.test.asm.TestBean");
-//        aClass.getDeclaredMethod("sout").invoke(aClass.newInstance(), null);
-        System.out.println(PrintStream.class.getMethod("println", String.class));
+        Class<?> aClass = Class.forName("com.test.asm.TestBean");
+        aClass.getDeclaredMethod("sout").invoke(aClass.newInstance(), null);
+       // System.out.println(PrintStream.class.getMethod("println", String.class));
     }
 }

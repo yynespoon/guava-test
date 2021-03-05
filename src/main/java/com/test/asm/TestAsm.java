@@ -1,10 +1,8 @@
 package com.test.asm;
 
 import org.objectweb.asm.*;
-import org.springframework.core.ResolvableType;
 
 import java.nio.file.Files;
-import java.nio.file.OpenOption;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 
